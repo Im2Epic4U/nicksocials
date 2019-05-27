@@ -22,7 +22,7 @@ async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
 	if "ns.list" == message.content.lower():
-		embed = discord.Embed(title="Nick's Socials", description="A list of Nick's social media accounts are shown here.\n\n[🐦 Twitter](https://twitter.com/godhxtesnick)\n\n[🎵 Spotify](https://open.spotify.com/user/w7dshlsxyrhl2i6o5yk5chwwc?si=XsHbVTDiTHy8eNQ-97JKqw)\n\n[📺 Twitch](https://twitch.tv/kosymosy)", colour=discord.Colour.red())
+		embed = discord.Embed(title="Nick's Socials", description="A list of Nick's social media accounts are shown here.\n\n[🎵 Spotify](https://open.spotify.com/user/w7dshlsxyrhl2i6o5yk5chwwc?si=XsHbVTDiTHy8eNQ-97JKqw)\n\n[📺 Twitch](https://twitch.tv/kosymosy)", colour=discord.Colour.red())
 		embed.set_footer(text='Contact real epic#0001 if there is a bug with this bot.', icon_url='https://cdn.discordapp.com/avatars/379400007410909186/a_264e49cb370914994eda22c49ed2aa96.gif')
 		embed.set_thumbnail(url='https://cdn.discordapp.com/avatars/269946726918389770/8ee2b0b5ffc97fd266f3d6c7074ebf14.png')
 		embed.set_author(name='nick!#0003', icon_url='https://cdn.discordapp.com/avatars/269946726918389770/8ee2b0b5ffc97fd266f3d6c7074ebf14.png')
