@@ -2,4 +2,4 @@
 # https://github.com/damnever/pigar
 
 # bot.py: 1,4
-discord.py == 1.0.0a1691+gf686924
+discord.py
